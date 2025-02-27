@@ -100,16 +100,15 @@ body {
 }
 
 .person-name {
-    margin-left: -320px;
+    margin-left: -270px;
     font-size: 1.4rem;
 
-    width: 200px;
+    width: 250px;
     color:#fff;
 
 }
 
 .animation{
-
     font-size: 3rem;
     font-weight: 700;
     border-right: 4px solid red;
@@ -119,7 +118,7 @@ body {
 
     display: inline-block;
 
-    max-width: 15ch;
+    max-width: 18ch;
     animation: blinkMarker 0.6s infinite,
                typing 5s infinite steps(18);
 }
@@ -197,7 +196,6 @@ body {
 .stacks ul li div img:hover {
     transform: scale(1.2);
     cursor: pointer;
-
 }
 
 .stacks ul li div:hover::after {
